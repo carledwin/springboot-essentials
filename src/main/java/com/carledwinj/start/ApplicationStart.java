@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-@SpringBootApplication //@Configuration @EnableAutoConfiguration @ComponentScan
+@SpringBootApplication(scanBasePackages = {"com.carledwinj.endpoint", "com.carledwinj.util"}) //@Configuration @EnableAutoConfiguration @ComponentScan
 /*@EnableAutoConfiguration
 @ComponentScan(basePackages = {"com.carledwinj.endpoint", "com.carledwinj.util"})
 */
